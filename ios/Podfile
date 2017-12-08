@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '10.0'
+
+react_native_path = '../node_modules/react-native'
+
+target 'ReactNativeMultipleRCTRootView' do
+  use_frameworks!
+  pod "yoga", :path => react_native_path + "/ReactCommon/yoga"
+  pod 'DoubleConversion', :podspec => react_native_path + '/third-party-podspecs/DoubleConversion.podspec'
+  pod 'GLog', :podspec => react_native_path + '/third-party-podspecs/GLog.podspec'
+  pod 'Folly', :podspec => react_native_path + '/third-party-podspecs/Folly.podspec'
+  pod 'React', :path => react_native_path, :subspecs => [
+    'Core',
+    'CxxBridge', # Include this for RN >= 0.47
+    'DevSupport', # Include this to enable In-App Devmenu if RN >= 0.43
+    'RCTText',
+    'RCTNetwork',
+    'RCTWebSocket', # needed for debugging
+    # Add any other subspecs you want to use in your project
+  ]
+end
