@@ -22,11 +22,11 @@
 
 /* Begin PBXBuildFile section */
 		45498AD31FDB287500768ABB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45498AD21FDB287500768ABB /* AppDelegate.swift */; };
-		45498AD51FDB287500768ABB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45498AD41FDB287500768ABB /* FirstViewController.swift */; };
-		45498AD71FDB287500768ABB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45498AD61FDB287500768ABB /* SecondViewController.swift */; };
+		45498AD71FDB287500768ABB /* ReactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45498AD61FDB287500768ABB /* ReactViewController.swift */; };
 		45498ADA1FDB287500768ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45498AD81FDB287500768ABB /* Main.storyboard */; };
 		45498ADC1FDB287500768ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45498ADB1FDB287500768ABB /* Assets.xcassets */; };
 		45498ADF1FDB287500768ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45498ADD1FDB287500768ABB /* LaunchScreen.storyboard */; };
+		45CC78401FDB3C4000D34D8C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CC783F1FDB3C4000D34D8C /* MainViewController.swift */; };
 		BA2473C512987616E120470E /* Pods_ReactNativeMultipleRCTRootView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9552A034BDD651CC769D716 /* Pods_ReactNativeMultipleRCTRootView.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,12 +45,12 @@
 		21A761F74C8E39C3FD14EFD4 /* Pods-ReactNativeMultipleRCTRootView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeMultipleRCTRootView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactNativeMultipleRCTRootView/Pods-ReactNativeMultipleRCTRootView.release.xcconfig"; sourceTree = "<group>"; };
 		45498ACF1FDB287500768ABB /* ReactNativeMultipleRCTRootView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeMultipleRCTRootView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45498AD21FDB287500768ABB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45498AD41FDB287500768ABB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		45498AD61FDB287500768ABB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		45498AD61FDB287500768ABB /* ReactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactViewController.swift; sourceTree = "<group>"; };
 		45498AD91FDB287500768ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45498ADB1FDB287500768ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45498ADE1FDB287500768ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45498AE01FDB287500768ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CC783F1FDB3C4000D34D8C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A9552A034BDD651CC769D716 /* Pods_ReactNativeMultipleRCTRootView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactNativeMultipleRCTRootView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -88,8 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				45498AD21FDB287500768ABB /* AppDelegate.swift */,
-				45498AD41FDB287500768ABB /* FirstViewController.swift */,
-				45498AD61FDB287500768ABB /* SecondViewController.swift */,
+				45CC783F1FDB3C4000D34D8C /* MainViewController.swift */,
+				45498AD61FDB287500768ABB /* ReactViewController.swift */,
 				45498AD81FDB287500768ABB /* Main.storyboard */,
 				45498ADB1FDB287500768ABB /* Assets.xcassets */,
 				45498ADD1FDB287500768ABB /* LaunchScreen.storyboard */,
@@ -271,9 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45498AD71FDB287500768ABB /* SecondViewController.swift in Sources */,
+				45498AD71FDB287500768ABB /* ReactViewController.swift in Sources */,
 				45498AD31FDB287500768ABB /* AppDelegate.swift in Sources */,
-				45498AD51FDB287500768ABB /* FirstViewController.swift in Sources */,
+				45CC78401FDB3C4000D34D8C /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
