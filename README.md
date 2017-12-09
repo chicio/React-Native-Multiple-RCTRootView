@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/chicio/React-Native-Multiple-RCTRootView.svg?branch=master)](https://travis-ci.org/chicio/React-Native-Multiple-RCTRootView)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/React-Native-Multiple-RCTRootView/master/LICENSE.md)
 
-An example project in which I show how it is possible to use multiple instances of `RCTRootView` in an existing iOS app integrated with React Native. This example has been created for my blog post  [React Native and Realm: custom manual link for an iOS app with custom directories structure](https://www.fabrizioduroni.it/2017/12/08/react-native-multiple-instance-rctrootview.html "React Native: use multiple RTCRootView instances in an existing iOS app").
+An example project in which I show how it is possible to use multiple instances of `RCTRootView` in an existing iOS app integrated with React Native. This example has been created for my blog post  [React Native: use multiple RTCRootView instances in an existing iOS app](https://www.fabrizioduroni.it/2017/12/08/react-native-multiple-instance-rctrootview.html "React Native: use multiple RTCRootView instances in an existing iOS app").
 
 ### Description
 
