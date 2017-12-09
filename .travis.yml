@@ -11,6 +11,5 @@ install:
  - npm install
  - cd ios
  - travis_wait pod install
- - cd ..
 script:
  - xcodebuild -workspace ReactNativeMultipleRCTRootView.xcworkspace -scheme ReactNativeMultipleRCTRootView clean build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest' | xcpretty
