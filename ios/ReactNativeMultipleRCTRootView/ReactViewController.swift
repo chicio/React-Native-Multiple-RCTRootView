@@ -9,12 +9,12 @@ import UIKit
 import React
 
 class ReactViewController: UIViewController {
-    init(moduleName: String) {
+    
+    init(moduleName: String, bridge: RCTBridge) {
         super.init(nibName: nil, bundle: nil)
-        view = RCTRootView(bundleURL: URL(string: "http://localhost:8081/index.bundle?platform=ios"),
+        view = RCTRootView(bridge: bridge,
                            moduleName: moduleName,
-                           initialProperties: nil,
-                           launchOptions: nil)
+                           initialProperties: nil)
     }
     
     required init?(coder aDecoder: NSCoder) {
