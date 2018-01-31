@@ -11,6 +11,6 @@ import React
 class ReactNativeBridgeDelegate: NSObject, RCTBridgeDelegate {
     
     func sourceURL(for bridge: RCTBridge!) -> URL! {
-        return URL(string: "http://localhost:8081/index.bundle?platform=ios")
+        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index.bundle", fallbackResource: nil)
     }
 }

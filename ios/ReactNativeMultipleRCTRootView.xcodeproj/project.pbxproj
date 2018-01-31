@@ -129,6 +129,7 @@
 			buildConfigurationList = 45498AE31FDB287500768ABB /* Build configuration list for PBXNativeTarget "ReactNativeMultipleRCTRootView" */;
 			buildPhases = (
 				29E3766DBE54EB16E6287ECB /* [CP] Check Pods Manifest.lock */,
+				453EB8C8202269100079CC5E /* React Native Bundler */,
 				45498ACB1FDB287500768ABB /* Sources */,
 				45498ACC1FDB287500768ABB /* Frameworks */,
 				45498ACD1FDB287500768ABB /* Resources */,
@@ -215,6 +216,20 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		453EB8C8202269100079CC5E /* React Native Bundler */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "React Native Bundler";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./../node_modules/react-native/scripts/react-native-xcode.sh index.js";
 		};
 		45498AF71FDB2E7A00768ABB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
