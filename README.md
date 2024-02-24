@@ -14,4 +14,4 @@ happen if we need to use multiple react native component in different parts of y
 tutorial I will show you how you can use multiple instances of  `RCTRootView` to show different React Native components
 in different parts of your app.
 
-Click [here](https://www.fabrizioduroni.it/2017/12/08/react-native-multiple-instance-rctrootview.html "React Native: use multiple RTCRootView instances in an existing iOS app") to read the post.
+Click [here](https://www.fabrizioduroni.it/2017/12/08/react-native-multiple-instance-rctrootview/ "React Native: use multiple RTCRootView instances in an existing iOS app") to read the post.
